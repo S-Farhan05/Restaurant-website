@@ -1,4 +1,3 @@
-import { HiH1 } from "react-icons/hi2";
 import Navv from "../components/navbar2";
 import Image from "next/image";
 import Footerr from "../components/footer";

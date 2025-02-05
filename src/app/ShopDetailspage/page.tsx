@@ -5,7 +5,7 @@ import Link from "next/link";
 import Footerr from "../components/footer";
 export default function Details(){
 
-  let[Count , Setcount] =useState(1);
+  const[Count , Setcount] =useState(1);
 
  const increaseCount = () =>{
   if(Count<10)
