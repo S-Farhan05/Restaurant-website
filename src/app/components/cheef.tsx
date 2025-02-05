@@ -5,7 +5,7 @@ export default function Chef(){
         <h1 className=" text-[#FF9F0D] text-[30px] md:text-[48px] font-bold flex justify-center">Fr <p className="text-white">om Our Menu</p></h1>
 
         {/* <div className="flex gap-3 sm:gap-7 text-[14px] sm:text-[18px] md:text-[20px] xl:ml-[305px] lg:ml-40 ml-6 font-inter md:gap-14 xl:gap-20 mt-3 md:mt-6 cursor-pointer font-bold"> */}
-        <div className="flex text-[14px] sm:text-[18px] md:text-[20px]  justify-around xl:justify-normal xl:ml-[220px] xl:gap-20 lg:ml-40 font-inter mt-3 md:mt-6 cursor-pointer font-bold">
+        <div className="flex text-[14px] sm:text-[18px] md:text-[20px]  justify-around xl:justify-normal xl:ml-[220px] xl:gap-20 lg:ml-40 font-inter mt-3 md:mt-6 cursor-pointer font-bold text-[#FFFFFF]">
             <h1 className="hover:text-[#FF9F0D] ">Breakfast</h1>
             <h1 className="hover:text-[#FF9F0D] ">Lunch</h1>
             <h1 className="hover:text-[#FF9F0D] ">Dinner</h1>
@@ -25,11 +25,11 @@ export default function Chef(){
 
             {/* Other side section of menu */}
             <div className="NO NEED OTHER SECTION FOR FLEX WORK  ">
-            <div className="grid grid-cols-2 font-inter space-y-7">
+            <div className="grid sm:grid-cols-2 grid-cols-1 font-inter space-y-7 text-[#FFFFFF]">
                
-               <div className="flex sm:flex-row flex-col mt-7 ml-2 sm:ml-0"><img className=" sm:w-auto sm:h-auto w-full h-full " src="Menu1.png" alt="Menu" />
-               <div className="flex flex-col md:pl-4 ">
-               <h1 className=" font-bold text-[20px]">Lettuce Leaf</h1>
+               <div className="flex sm:flex-row flex-col mt-7 ml-2 sm:ml-0"><img className=" sm:w-auto sm:h-auto  w-[90px] h-auto mx-auto sm:mx-0" src="Menu1.png" alt="Menu" />
+               <div className="flex flex-col md:pl-4 items-center sm:items-start ">
+               <h1 className=" font-bold text-[20px] mt-3 sm:mt-0">Lettuce Leaf</h1>
                <p className="text-[14px]">Lacus nisi, et ac dapibus velit in consequat.</p>
                <h1 className="font-bold text-[18px] text-[#FF9F0D]">12.5$</h1>
                </div>
@@ -39,61 +39,61 @@ export default function Chef(){
                {/* hidden  group-hover:block looks cool on pc but hover isnt on mobile so no faida */}
 
 
-               <div className="flex sm:flex-row flex-col  ml-2 mt-7 sm:mt-0"><img className="sm:w-auto sm:h-auto w-full h-full" src="Menu2.png" alt="Menu" />
-               <div className="flex flex-col md:pl-4 ">
-               <h1 className=" font-bold text-[20px]">Lettuce Leaf</h1>
+               <div className="flex sm:flex-row flex-col mt-7 ml-2 sm:ml-0"><img className=" sm:w-auto sm:h-auto  w-[90px] h-auto mx-auto sm:mx-0" src="Menu2.png" alt="Menu" />
+               <div className="flex flex-col md:pl-4 items-center sm:items-start ">
+               <h1 className=" font-bold text-[20px] mt-3 sm:mt-0">Glow Cheese</h1>
                <p className="text-[14px]">Lacus nisi, et ac dapibus velit in consequat.</p>
                <h1 className="font-bold text-[18px] text-[#FF9F0D]">12.5$</h1>
                </div>
                </div>
 
 
-               <div className="flex sm:flex-row flex-col mt-7 ml-2 sm:ml-0"><img className=" sm:w-auto sm:h-auto w-full h-full " src="Menu3.png" alt="Menu" />
-               <div className="flex flex-col md:pl-4 ">
-               <h1 className=" font-bold text-[20px]">Lettuce Leaf</h1>
-               <p className="text-[14px]">Lacus nisi, et ac dapibus velit in consequat.</p>
-               <h1 className="font-bold text-[18px] text-[#FF9F0D]">12.5$</h1>
-               </div>
-               </div>
-                
-               <div className="flex sm:flex-row flex-col  ml-2 mt-7 sm:mt-0"><img className="sm:w-auto sm:h-auto w-full h-full" src="Menu4.png" alt="Menu" />
-               <div className="flex flex-col md:pl-4 ">
-               <h1 className=" font-bold text-[20px]">Lettuce Leaf</h1>
-               <p className="text-[14px]">Lacus nisi, et ac dapibus velit in consequat.</p>
-               <h1 className="font-bold text-[18px] text-[#FF9F0D]">12.5$</h1>
-               </div>
-               </div>
-
-
-
-               <div className="flex sm:flex-row flex-col mt-7 ml-2 sm:ml-0"><img className=" sm:w-auto sm:h-auto w-full h-full " src="Menu5.png" alt="Menu" />
-               <div className="flex flex-col md:pl-4 ">
-               <h1 className=" font-bold text-[20px]">Lettuce Leaf</h1>
+               <div className="flex sm:flex-row flex-col mt-7 ml-2 sm:ml-0"><img className=" sm:w-auto sm:h-auto  w-[90px] h-auto mx-auto sm:mx-0" src="Menu3.png" alt="Menu" />
+               <div className="flex flex-col md:pl-4 items-center sm:items-start ">
+               <h1 className=" font-bold text-[20px] mt-3 sm:mt-0">Fresh Breakfast</h1>
                <p className="text-[14px]">Lacus nisi, et ac dapibus velit in consequat.</p>
                <h1 className="font-bold text-[18px] text-[#FF9F0D]">12.5$</h1>
                </div>
                </div>
                 
-               <div className="flex sm:flex-row flex-col  ml-2 mt-7 sm:mt-0"><img className="sm:w-auto sm:h-auto w-full h-full" src="Menu6.png" alt="Menu" />
-               <div className="flex flex-col md:pl-4 ">
-               <h1 className=" font-bold text-[20px]">Lettuce Leaf</h1>
+               <div className="flex sm:flex-row flex-col mt-7 ml-2 sm:ml-0"><img className=" sm:w-auto sm:h-auto  w-[90px] h-auto mx-auto sm:mx-0" src="Menu4.png" alt="Menu" />
+               <div className="flex flex-col md:pl-4 items-center sm:items-start ">
+               <h1 className=" font-bold text-[20px] mt-3 sm:mt-0">Italian Pizza</h1>
                <p className="text-[14px]">Lacus nisi, et ac dapibus velit in consequat.</p>
                <h1 className="font-bold text-[18px] text-[#FF9F0D]">12.5$</h1>
                </div>
                </div>
 
 
-               <div className="flex sm:flex-row flex-col mt-7 ml-2 sm:ml-0"><img className=" sm:w-auto sm:h-auto w-full h-full " src="Menu7.png" alt="Menu" />
-               <div className="flex flex-col md:pl-4 ">
-               <h1 className=" font-bold text-[20px]">Lettuce Leaf</h1>
+
+               <div className="flex sm:flex-row flex-col mt-7 ml-2 sm:ml-0"><img className=" sm:w-auto sm:h-auto  w-[90px] h-auto mx-auto sm:mx-0" src="Menu5.png" alt="Menu" />
+               <div className="flex flex-col md:pl-4 items-center sm:items-start ">
+               <h1 className=" font-bold text-[20px] mt-3 sm:mt-0">Mild Butter</h1>
                <p className="text-[14px]">Lacus nisi, et ac dapibus velit in consequat.</p>
                <h1 className="font-bold text-[18px] text-[#FF9F0D]">12.5$</h1>
                </div>
                </div>
                 
-               <div className="flex sm:flex-row flex-col  ml-2 mt-7 sm:mt-0"><img className="sm:w-auto sm:h-auto w-full h-full" src="Menu8.png" alt="Menu" />
-               <div className="flex flex-col md:pl-4 ">
-               <h1 className=" font-bold text-[20px]">Lettuce Leaf</h1>
+               <div className="flex sm:flex-row flex-col mt-7 ml-2 sm:ml-0"><img className=" sm:w-auto sm:h-auto  w-[90px] h-auto mx-auto sm:mx-0" src="Menu6.png" alt="Menu" />
+               <div className="flex flex-col md:pl-4 items-center sm:items-start ">
+               <h1 className=" font-bold text-[20px] mt-3 sm:mt-0">Sllice Beef</h1>
+               <p className="text-[14px]">Lacus nisi, et ac dapibus velit in consequat.</p>
+               <h1 className="font-bold text-[18px] text-[#FF9F0D]">12.5$</h1>
+               </div>
+               </div>
+
+
+               <div className="flex sm:flex-row flex-col mt-7 ml-2 sm:ml-0"><img className=" sm:w-auto sm:h-auto  w-[90px] h-auto mx-auto sm:mx-0" src="Menu7.png" alt="Menu" />
+               <div className="flex flex-col md:pl-4 items-center sm:items-start ">
+               <h1 className=" font-bold text-[20px] mt-3 sm:mt-0">Fresh Bread</h1>
+               <p className="text-[14px]">Lacus nisi, et ac dapibus velit in consequat.</p>
+               <h1 className="font-bold text-[18px] text-[#FF9F0D]">12.5$</h1>
+               </div>
+               </div>
+                
+               <div className="flex sm:flex-row flex-col mt-7 ml-2 sm:ml-0"><img className=" sm:w-auto sm:h-auto  w-[90px] h-auto mx-auto sm:mx-0" src="Menu8.png" alt="Menu" />
+               <div className="flex flex-col md:pl-4 items-center sm:items-start ">
+               <h1 className=" font-bold text-[20px] mt-3 sm:mt-0">Mushaom Pizza</h1>
                <p className="text-[14px]">Lacus nisi, et ac dapibus velit in consequat.</p>
                <h1 className="font-bold text-[18px] text-[#FF9F0D]">12.5$</h1>
                </div>
@@ -104,7 +104,7 @@ export default function Chef(){
        </div>
         </div>
 
-        <section className="below div mt-12 ">
+        <section className="below div mt-12 text-[#FFFFFF] ">
         <h1 className="font-title md:text-[32px] text-[18px] text-center lg:mt-16 md:mt-12 mt-6 text-[#FF9F0D]">chefs</h1>
         <h1 className=" text-[#FF9F0D] text-[30px] md:text-[48px] font-bold flex justify-center">Me <p className="text-white">et Our Chef</p></h1>
         <div className="flex flex-wrap justify-evenly">
@@ -115,7 +115,7 @@ export default function Chef(){
         </div>
           <div className="flex justify-center md:mt-8 mt-4">
              <button className="text-center rounded-[25px] border border-[#FF9F0D]  
-              w-[155px] hover:bg-red-400 hover:text-black h-[50px]">See more</button>
+              w-[155px] hover:bg-red-400 hover:text-black h-[50px] text-[#FFFFFF]">See more</button>
          </div>   
          <h1 className="text-[#FF9F0D] font-title md:text-[32px] text-[18px] md:ml-[135px]  md:mt-20 mt-4 ml-6 ">Testimonials</h1> 
           <h1 className="font-bold text-white md:text-[48px] sm:text-[30px] text-[24px] md:ml-[135px] ml-6">What our client are saying</h1>
@@ -176,7 +176,7 @@ export default function Chef(){
 
    
       <div className="flex items-center">
-        <img src="play.png" alt="Play Icon" className="w-6 h-6 mr-2" />
+        <img src="play.png" alt="Icon" className="w-6 h-6 mr-2" />
         <h1 className="font-inter font-bold text-[15px]">Play Video</h1>
       </div>
     </div>

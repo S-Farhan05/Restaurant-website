@@ -13,12 +13,12 @@ const Shopitems =[
 {id :7 , img : "/shope7.png",name:"Cheese Butter" ,text1 :"$10.00" ,},
 {id :8 , img : "/shope8.png",name:"Sandwiches" ,text1 :"$25.00" ,},
 {id :9 , img : "/shope9.png",name:"Chicken Chup" ,text1 :"$12.00" ,},
-{id :10, img : "/Shope4.png",name:"Cheese Butter" ,text1 :"$10.00" ,},
-{id :11 ,img : "/Shope5.png",name:"Sandwiches" ,text1 :"$25.00" ,},
-{id :12 ,img : "/Shope6.png",name:"Chicken Chup" ,text1 :"$12.00" ,},
-{id :13 ,img : "/Shope7.png",name:"Country Burger" ,text1 :"$45.00"},
-{id :14, img : "/Shope8.png",name:"Drink" ,text1 :"$23.00" ,text2:"$45.00"},
-{id :15 ,img : "/Shope9.png",name:"Pizza" ,text1 :"$43.00" ,},
+{id :10, img : "/shope4.png",name:"Cheese Butter" ,text1 :"$10.00" ,},
+{id :11 ,img : "/shope5.png",name:"Sandwiches" ,text1 :"$25.00" ,},
+{id :12 ,img : "/shope6.png",name:"Chicken Chup" ,text1 :"$12.00" ,},
+{id :13 ,img : "/shope7.png",name:"Country Burger" ,text1 :"$45.00"},
+{id :14, img : "/shope8.png",name:"Drink" ,text1 :"$23.00" ,text2:"$45.00"},
+{id :15 ,img : "/shope9.png",name:"Pizza" ,text1 :"$43.00" ,},
 
 
 

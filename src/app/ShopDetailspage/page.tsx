@@ -108,7 +108,7 @@ export default function Details(){
                       
 
                       <Link href={"/ShoppingCartpage"}><div className=" lg:w-[181px] w-28 text-white xl:h-[50px] bg-[#FF9F0D] flex items-center cursor-pointer lg:gap-4  gap-2 lg:px-3 px-1 h-[42px] hover:bg-red-400">
-                        <img src="bag.png" alt="bag" />
+                        <img src="Bag.png" alt="bag" />
                         <p className="font-inter lg:text-[18px] text-[14px] ">Add to cart</p>
 
 

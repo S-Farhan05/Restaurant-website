@@ -46,7 +46,7 @@ export default function Choose(){
        {/* 2nd section */}
     
     
-       <div className="xl:mt-7 xl:ml-9 xl:max-w-[523px]  ">
+       <div className="xl:mt-7 xl:ml-9 xl:max-w-[523px] text-white ">
      <div className="chose font-title text-[#FF9F0D] md:text-[32px] text-[24px]">Why Choose us</div>
      <div className="font-bold md:text-5xl text-3xl break-words"><span className="text-[#FF9F0D] ">Ex</span>tra ordinary taste And Experienced </div>
     <p className="md:pt-3 pt-2 font-inter md:text-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
@@ -77,7 +77,7 @@ export default function Choose(){
     {/* main div parent */}
     
        </div>
-       <div className="relative bg-black w-full h-[350px] md:h-[400px] flex  items-center justify-evenly sm:mt-28 mt-14">
+       <div className="relative bg-black w-full h-[350px] md:h-[400px] flex  items-center justify-evenly sm:mt-28 mt-14 text-white">
   <div className="absolute inset-0 bg-backsand bg-cover opacity-25"></div>
 
   <div className="flex font-inter text-[20px] justify-around w-full px-2 sm:px-0">
