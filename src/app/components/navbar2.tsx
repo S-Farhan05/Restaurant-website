@@ -1,5 +1,3 @@
-import { RiArrowDropDownLine } from "react-icons/ri";
-import { CiSearch, CiShoppingBasket } from "react-icons/ci";
 import Link from "next/link";
 
 export default function Navv() {
@@ -19,7 +17,7 @@ export default function Navv() {
             <div>
               <ul className="group">
                 <p className="hover:text-[#FF9F0D] flex">
-                  Shop {/* <RiArrowDropDownLine className="mt-1 text-[22px]" /> */}
+                  Shop
                   <img src="dropdown.png" alt="dropdown " className="ml-[1px]" />
                 </p>
                 <span className="hidden group-hover:block absolute">

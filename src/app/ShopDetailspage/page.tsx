@@ -1,5 +1,4 @@
 "use client"
-import { count } from "console";
 import Navv from "../components/navbar2";
 import { useState } from "react";
 import Link from "next/link";

@@ -1,5 +1,4 @@
 "use client"
-import { useState } from "react";
 import Navv from "../components/navbar2"
 import QuantityCounter from "../components/counter";
 import Footerr from "../components/footer";
